@@ -1,0 +1,7 @@
+#folders
+/.quarto/
+/_site/
+/posts/2023-08-18_from_model_to_production/subsite/bears/
+
+#filetypes
+*.pkl

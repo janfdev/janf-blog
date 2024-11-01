@@ -1,0 +1,22 @@
+---
+title: "Notes"
+listing:
+  contents: 
+    - 'notes/*/*_note.qmd'
+    - 'notes/*/*_note.ipynb'
+  feed: true
+  sort: 
+    - "date desc"
+    - "title desc"
+  type: table
+  image-height: 120px
+  image-placeholder: "profile.jpg"
+  fields: [date,title]
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  date-format: iso 
+  page-size: 9
+page-layout: full
+title-block-banner: false
+---

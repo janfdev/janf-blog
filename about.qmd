@@ -1,0 +1,24 @@
+---
+title: jantxt
+about:
+  id: hero-heading
+  template: trestles
+  image: images/jantxt24.png
+  image-shape: round
+  links:
+    - icon: twitter-x
+      text: jantxt
+      href: https://twitter.com/jantxt_v1
+      target: _blank
+    - icon: github
+      text: jantxt
+      href: https://github.com/jantxt
+      target: _blank
+---
+### hey welcome,
+
+I'm jantxt from austria. I like to learn and create new things. Here i take notes about these processes or outcomes.
+
+Email me at <i>mail[at]jantxt.cc</i> if you like!
+
+more coming soon...

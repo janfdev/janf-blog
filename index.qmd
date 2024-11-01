@@ -1,0 +1,32 @@
+---
+listing:
+  contents: 
+    - 'posts/*/*_post.qmd'
+    - 'posts/*/*_post.ipynb'
+  feed: true
+  sort: 
+    - "date desc"
+    - "title desc"
+  type: default
+  image-height: 130px
+  image-placeholder: "profile.jpg"
+  fields: [image, title, description, date, reading-time]
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+  date-format: iso
+  id: blog-listings
+page-layout: full
+title-block-banner: false
+---
+::: {.blog-header}
+### hey welcome,
+more about [jantxt](about.qmd)</br>
+:::
+
+## blog posts
+::: {#blog-listings}
+:::
+
+

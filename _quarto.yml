@@ -1,0 +1,30 @@
+project:
+  type: website
+  resources:
+  - CNAME
+
+website:
+  title: jantxt
+  site-url: https://jantxt.cc
+  description: jantxt.cc
+  favicon: images/jantxt_favicon.png
+  back-to-top-navigation: true
+  search: 
+    location: navbar 
+    type: overlay
+  draft-mode: visible
+
+
+  navbar:
+    left:
+      - text: "Blog"
+        file: blog.qmd
+      - text: "Notes"
+        file: notes.qmd
+      - text: "About"
+        file: about.qmd
+    
+format:
+  html:
+    theme: simplex
+    css: styles.css
